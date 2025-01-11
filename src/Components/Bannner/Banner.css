@@ -1,0 +1,12 @@
+.slick-dots{
+    @apply !flex gap-8 justify-center
+}
+.slick-dots li button{
+    @apply text-[0px] w-[5px] h-[5px] bg-gray-500 rounded-full
+}
+.slick-dots .slick-active button{
+    @apply bg-red-500
+}
+.slick-arrow{
+    @apply text-[0]
+}

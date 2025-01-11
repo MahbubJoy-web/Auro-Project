@@ -1,0 +1,150 @@
+.Network{
+    @apply bg-[#F6F6F6] md:pt-[150px] pt-[100px]
+}
+.net_row{
+    @apply w-full flex items-center flex-col
+}
+.net_text{
+    @apply flex flex-col items-center
+}
+.net_text h2 {
+    @apply w-full text-center sm:w-[500px] md:text-[48px] sm:text-[36px] font-[700] font-Poppins text-white
+}.net_text p{
+    @apply  mt-[20px] w-full md:w-[555px] text-center font-Poppins font-[500] text-[#4F5665] md:text-[24px] sm:text-[20px]
+}
+.map{
+    @apply mt-[100px] md:mt-[155px] relative
+}
+.map_pointer{
+    @apply w-[37px]  h-[37px] absolute left-[90px] top-[91px] ;
+            animation: ani infinite linear 2s;
+}
+@keyframes ani {
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+.no1{
+    @apply left-[17px] top-[63px] 
+}
+.no2{
+    @apply left-[15%] top-[19%] 
+}
+.no3{
+    @apply left-[25%] top-[15%] 
+}
+
+.no4{
+    @apply left-[20%] top-[12%] 
+}
+.no5{
+    @apply left-[32%] top-[3%] 
+}
+
+.no6{
+    @apply left-[28%] top-[61%] 
+}
+.no7{
+    @apply left-[36%] top-[8%] 
+}
+.no8{
+    @apply left-[26%] top-[83%] 
+}
+.no9{
+    @apply left-[40%] top-[15%] 
+}
+.no10{
+    @apply left-[25%] top-[25%] 
+}
+.no11{
+    @apply left-[20%] top-[50%] 
+}
+.no12{
+    @apply left-[15%] top-[40%] 
+}
+.no13{
+    @apply left-[15%] top-[30%] 
+}
+.no14{
+    @apply left-[22%] top-[2%] 
+}
+.no15{
+    @apply left-[32%] top-[70%] 
+}
+.no16{
+    @apply left-[60%] top-[16%] 
+}
+.no17{
+    @apply left-[54%] top-[14%] 
+}
+.no18{
+    @apply left-[50%] top-[17%] 
+}
+.no19{
+    @apply left-[51%] top-[25%] 
+}
+.no20{
+    @apply left-[67%] top-[19%] 
+}
+.no21{
+    @apply left-[75%] top-[28%] 
+}
+.no22{
+    @apply left-[72%] top-[7%] 
+}
+.no23{
+    @apply left-[60%] top-[27%] 
+}
+.no24{
+    @apply left-[64%] top-[40%] 
+}
+.no25{
+    @apply left-[80%] top-[15%] 
+}
+.no26{
+    @apply left-[88%] top-[15%] 
+}
+.no27{
+    @apply left-[75%] top-[41%] 
+}
+.no28{
+    @apply left-[95%] top-[14%] 
+}
+.no29{
+    @apply left-[85%] top-[80%] 
+}
+.no30{
+    @apply left-[80%] top-[74%] 
+}
+.no31{
+    @apply left-[51%] top-[50%] 
+}
+.no32{
+    @apply left-[45%] top-[48%] 
+}
+.no33{
+    @apply left-[55%] top-[61%] 
+}
+.no34{
+    @apply left-[53%] top-[77%] 
+}
+.no35{
+    @apply left-[58%] top-[45%] 
+}
+.powerBy{
+    @apply md:mt-[6px] flex justify-between items-center gap-[5px]
+}
+.powerBy img{
+    @apply w-full
+}
+
+
+
+
+
