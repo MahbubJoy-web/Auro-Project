@@ -5,15 +5,20 @@ import './App.css'
 import Banner from './Components/Bannner/Banner'
 import About from './Components/About/About'
 import Network from './Components/Network/Network'
+import Footer from './Components/Footer/Footer'
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import Home from './Page/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const myRout = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/'  element={<Home/>}></Route>
+    )
+  )
 
   return (
     <>
-    <div className="">
-   <Banner/>
-    </div>
+    <RouterProvider router={myRout} />
     </>
   )
 }
